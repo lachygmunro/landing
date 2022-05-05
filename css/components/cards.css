@@ -2,12 +2,12 @@
   background: white;
   color: black;
   text-align: center;
-  height: 90vh;
 }
 
 .method {
   padding-top: 35px;
 }
+
 
 .content h2 {
   font-size: 45px;
@@ -22,20 +22,21 @@
   font-size: 20px;
 }
 
-.content .info {
+.info {
   padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
 }
 
 .card > img {
   height: 200px;
-  width: 350px;
+  width: 100%;
   object-fit: cover;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-
 }
 
 .card {
@@ -45,6 +46,7 @@
   border-radius: 10px;
   box-shadow: 0 1px 20px rgba(0, 0, 0, 0.3), 0 15px 25px rgba(240, 46, 170, 0.3);
   opacity: .9;
+  margin-bottom: 20px;
 }
 
 .card > div {
@@ -61,26 +63,4 @@
 
 .card > div > p {
   margin: 5px 5px;
-}
-
-@media (max-width: 960px) {
-  .card {
-    height: 300px;
-    width: 250px;
-  }
-}
-
-@media (max-width: 720px) {
-  .card {
-    height: 250px;
-    width: 200px;
-  }
-}
-
-
-@media (max-width: 540px) {
-  .card {
-    height: 200px;
-    width: 150px;
-  }
 }
