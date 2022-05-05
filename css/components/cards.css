@@ -62,3 +62,25 @@
 .card > div > p {
   margin: 5px 5px;
 }
+
+@media (max-width: 960px) {
+  .card {
+    height: 350px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 720px) {
+  .card {
+    height: 300px;
+    width: 250px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .card {
+    height: 250px;
+    width: 200px;
+  }
+}
