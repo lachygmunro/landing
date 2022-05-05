@@ -1,0 +1,20 @@
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.icons {
+  color: rgba(240, 46, 170, 0.6);
+  text-decoration: none;
+  font-size: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: color .3s ease;
+}
+
+.icons:hover {
+  color: rgba(219, 162, 198, 0.6);
+}
